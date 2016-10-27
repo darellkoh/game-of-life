@@ -16,8 +16,10 @@ app.use(express.static(__dirname + '/styles'));
 
 // Listening
 var port = 3000;
-app.listen(port, function(){
-  console.log('Listening on port ' + port);
+var PORT = process.env.PORT || port;
+
+app.listen(PORT, function(){
+  console.log('Listening on port ' + PORT);
 });
 
 // GET
