@@ -27,3 +27,7 @@ td.dead {
   margin: 10px auto;
   text-align: center;
 }
+
+.text-muted {
+  text-align: center;
+}
